@@ -1,90 +1,180 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+[![CI](https://img.shields.io/badge/Github%20Pages-passing-gold.svg?logo=github)](ci)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.9-green.svg)](https://jekyllrb.com/)
+[![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
+<a href="https://jekyll-themes.com/byanko55/jekyll-professional-resume">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
 </a>
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+# 🎓 - Jekyll Professional Resume
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+Live demo is available [here](https://byanko55.github.io/resume-demo/).
 
-## Installation
+![demo](https://i.ibb.co/HYshYc0/231232121.webp)
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+## Setup
+Fork [this repository](https://github.com/byanko55/jekyll-professional-resume) or download the [source](https://github.com/byanko55/jekyll-professional-resume/releases) as a zip.
 
-Change all the details from one place: `_data/data.yml`.
+**Rename your repository as USERNAME.github.io or anything else.**
 
-### To preview/edit locally with docker
+If you choose the former, then your URL will be https://USERNAME.github.io/.
 
-```sh
-docker-compose up
+Otherwise (let's say `myresume`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the resume page will be served to "https://USERNAME.github.io/myresume/".
+
+```yml
+# set baseurl as "/<repo-name>". ex) baseurl: /myresume
+baseurl: myresume/
 ```
 
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
 
-### Local machine
+### Update Profile
+In `_config.yml`, you can modify personal info such as your *photo, phone number, email*, and other social accounts. 
 
-* Get the repo into your machine 
+```yml
+profile_img: assets/img/profile.webp
+icon_img: assets/img/icon.webp
 
-```bash
-git clone https://github.com/sharu725/online-cv.git
+name: "Your Name Here"
+job: "〈Your Job Here〉"
+
+phone_number: 012-345-6789
+address: City, Country
+email: email@example.com
+linkedin_username: linkedin
+github_username: github
+...
+
 ```
 
-* Install required ruby gems
+### Create a Topic
 
-```bash
-bundle install
+All resume information should be placed in a directory named '`_data`'. You may need to manage personal data in separate groups, making a *Yaml* (`.yml`) file for each subject.
+
+```
+._data
+├── SUBJECT1.yml
+├── SUBJECT2.yml
+├── SUBJECT3.yml
+...
+
 ```
 
-* Serve the site locally
+For instance,
 
-```bash
-bundle exec jekyll serve
+```
+._data
+├── Awards.yml
+├── Education.yml
+├── Experience.yml
+├── Languages.yml
+├── Projects.yml
+├── Publications.yml
+├── Skills.yml
 ```
 
-* Navigate to `http://localhost:4000`
+### Fill your infomation
 
+Open the *Yaml* file which you created right before. Add the following materials inside of the file.
 
-## Skins
+* **subject**: title of a subject
+* **listing-order**: determines the display order (from top to bottom)
+* **icon**: representative icon to be displayed (pick out from `resources/svgs`)
+* **contents**: The details of each item, listed in `KEY`-`VALUE` pairs 
 
-There are 6 color schemes available:
+```yml
+subject:
+listing-order:
+icon:
+contents:
+  - title: ITEM 1
+    KEY: VALUE
+    KEY: VALUE
+    ...
+  - title: ITEM 2
+    KEY: VALUE
+    ...
+```
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+For a better understanding, see the example below.
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+```yml
+subject: Education
+listing-order: 1
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: Stanfort University, MA in Computer Science
+    description:
+      - Development of algorithms for tracking the facial expressions
+      - Optimizing parameter efficient fine tuning for fairness
+    grade: "**GPA**: `4.1/4.3`"
+    date: Mar. 2014 - Feb. 2016
+  ...
 
-## Credits
+```
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+The rendered output looks like this:
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+![example1](https://i.ibb.co/9TGKPrv/123312.webp)
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+See also the advanced example. 
 
-## Star History
+> **Important**: You can use markdown syntax to **apply text bold, italic, and underlined** effects or **create HTML elements** (including image, links, span, etc.)!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+```yml
+subject: Projects
+listing-order: 3
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+    description: 
+      - Chatbot developed based on a large language model
+      - Designed Generative algorithm to generate novel human-like content
+      - "Technology Used: Rust, Typescript, Python, Ruby"
+    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
+  ...
 
+```
+
+![example](https://i.ibb.co/tCNCyYr/231321.webp)
+
+## Build from Gem package
+
+If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/byanko55/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
+
+## Customizing
+
+### Change Color Palette
+Wanna pick another color? You can edit the base theme palette in `assets/css/style.scss`.
+```css
+:root {
+    --color-background: #fffdfb;
+    --theme1-light: #F6D8CB;
+    --theme1-medium: #D0A694;
+    --theme1-dim: #B07D67;
+    --theme1-dark: #8A5843;
+    --theme2-light: #B1B1C2;
+    ...
+
+}
+```
+
+### Site Shortcut Icon
+To replace the shortcut icon displayed on browser tab, modify *icon_img* field in `_config.yml`.
+![shortcut](https://i.ibb.co/g9cYjRj/213213214.webp)
+
+```yml
+icon_img: "<IMAGE URL/PATH>"
+```
+
+## Contribution
+If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-professional-resume/issues) We are open to any kind of feedback or collaboration.
+<br></br>
+
+## License
+© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
