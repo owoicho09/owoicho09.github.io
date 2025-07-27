@@ -8,18 +8,18 @@ contents:
       - Full-stack AI automation engine for digital product marketing and outreach
       - Integrates lead scraping (Google Maps, Instagram, Bing), cold outreach, and SEO blog generation
       - Uses GPT, LangGraph, RAG, SMTP rotation, and GitHub Pages deployment
-      - **Tech Stack:** Python, Django, OpenAI, LangGraph, Playwright, RAG, LangChain
+      - "**Tech Stack:** Python, Django, OpenAI, LangGraph, Playwright, RAG, LangChain"
 
   - title: "Unitoria"
     link: "https://github.com/owoicho09/tutormeapi"
     description: 
       - Online university tutorial platform adopted by FUT Minna students
       - Features live class scheduling, lecture uploads, user dashboards, and real-time chat
-      - **Tech Stack:** Django, PostgreSQL, JavaScript, Paystack, Flutterwave, Stripe
+      - "**Tech Stack:** Django, PostgreSQL, JavaScript, Paystack, Flutterwave, Stripe"
 
   - title: "MVP Booking System"
     link: "https://github.com/owoicho09/mountainviewprovince"
     description: 
       - End-to-end student accommodation platform for Baze and Nile University students
       - Handles property listings, calendar-based booking, and integrated payments
-      - **Tech Stack:** Django, HTML5, PostgreSQL, Stripe, Paystack, Flutterwave
+      - "**Tech Stack:** Django, HTML5, PostgreSQL, Stripe, Paystack, Flutterwave"
