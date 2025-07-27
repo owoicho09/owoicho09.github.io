@@ -1,13 +1,33 @@
-subject: Awards
+subject: Certifications
 listing-order: 6
 icon: "/assets/img/trophy.svg"
 contents:
-  - title: IEEEE Fellow
-    description: Association for Natural Language Processing
-    date: Feb. 2024
-  - title: Gogle CodeJam
-    description: 3rd place in Gogle CodeJam
-    date: Jul. 2013
-  - title: Millennium Hackaton
-    description: won the best Inspirational Youth Awards
-    date: Oct. 2010
+  - title: Python for Everybody
+    description: >
+      Completed foundational and advanced Python training including APIs, databases, and web development.
+      **Credential**: Coursera – University of Michigan
+    date: 2024
+
+  - title: Machine Learning A–Z (Python & R)
+    description: >
+      Hands-on training in regression, classification, clustering, and model evaluation. Covered both supervised and unsupervised learning.
+      **Credential**: Udemy
+    date: 2024
+
+  - title: AI & Deep Learning with Python and R
+    description: >
+      Practical course on CNNs, RNNs, and TensorFlow-based deep learning pipelines.
+      **Credential**: Udemy
+    date: 2025
+
+  - title: Mastering LLMs & AI Agents
+    description: >
+      In-depth course on GPT agent design, LangGraph, LangChain, memory handling, and Retrieval-Augmented Generation (RAG).
+      **Credential**: Udemy
+    date: 2025
+
+  - title: REST API Development with Flask
+    description: >
+      Built secure and scalable APIs with Flask, PostgreSQL, token authentication, and Docker/Heroku deployment.
+      **Credential**: Udemy
+    date: 2024
