@@ -6,7 +6,7 @@ contents:
     role: Founder & Lead Developer
     description:
       - Built a full-stack AI automation engine for scaling digital product sales and outreach
-      - Engineered lead scraping from Google Maps, Instagram, and Bing using Python and Playwright
+      - Engineered potential customer discovery from Google Maps, Instagram, and Bing using Python and Playwright
       - Designed GPT-personalized cold email system with rotating SMTP inboxes for outreach automation
       - Created an SEO blog generation engine that auto-publishes to GitHub Pages
       - Integrated LangGraph and OpenAI APIs for adaptive logic and decision-making
@@ -16,16 +16,15 @@ contents:
   - title: Office.ai — Unified AI Assistant for Smart Workspace Automation
     role: Founder & Lead Developer
     description:
-      - Built Office.ai, a next-gen GPT-4-powered agent that automates workspace tasks using natural language
-      - Connected Gmail, Google Drive, WhatsApp, PostgreSQL/Django, and spreadsheets into one semantic interface
-      - Developed semantic search (RAG) over emails, documents, and databases using LangChain and ChromaDB
-      - Automated intelligent email triage: summarization, categorization, context-aware replies and follow-ups
-      - Embedded and vectorized PDFs, DOCX, and transcribed voice notes for context-aware document Q&A
-      - Generated spreadsheets from internal DBs (products, metrics, analytics) and auto-delivered via email/WhatsApp
-      - Built Whisper integration for real-time voice transcription and summarization
-      - Used LangChain agents for tool selection, dynamic decision-making, and autonomous task execution
-      - Enabled scheduling, calendar sync, and smart replies through Google Calendar API and NLP
-      - Example: “Summarize team emails this week” or “Send sales report to finance via WhatsApp”
+      - Built Office.ai — an AI-powered assistant (chatbot) that automates daily business tasks through natural language
+      - Connected Gmail, Google Drive, WhatsApp, and internal databases into a single smart interface
+      - Enabled semantic search across emails, files, and records using RAG (LangChain + ChromaDB)
+      - Built features like email summarization, smart replies, and automated follow-ups
+      - Embedded PDFs, Word docs, and voice notes into a searchable AI knowledge base
+      - Generates reports and spreadsheets from database insights, delivered via email or WhatsApp
+      - Integrates Whisper for audio transcription and GPT-based summarization
+      - Used LangChain agents to intelligently decide what tools to run and what actions to take
+      - Added Google Calendar integration for scheduling, reminders, and context-aware task handling
     date: "Apr 2025 – Present"
 
   - title: Unitoria (Online University Tutorial Platform)
