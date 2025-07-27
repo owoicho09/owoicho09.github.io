@@ -1,23 +1,24 @@
 title: Michael Owoicho Ogaje — Resume
-profile_img: /assets/img/profile.webp  # Make sure this image exists
-icon_img: /assets/img/icon.webp        # Favicon/icon image
- 
+profile_img: /assets/img/profile.jpg       # Ensure this file exists in /assets/img
+icon_img: /assets/img/icon.webp             # Favicon/icon
+
 name: "Michael Owoicho Ogaje"
 job: "Python Developer • AI Automation Engineer"
+quote: "Automate your workflow with AI."
 
-phone_number: 08142878380
-address: Abuja, Nigeria
-email: michaelogaje033@gmail.com
+phone_number: "08142878380"
+address: "Abuja, Nigeria"
+email: "michaelogaje033@gmail.com"
 
 linkedin_username: michael-ogaje-3a8323377
 github_username: owoicho09
-twitter_username:  # No Twitter
+twitter_username:       # No Twitter
 instagram_username: kacheofficiall
-facebook_username:  # No Facebook
-youtube_username:   # No YouTube
+facebook_username:      # No Facebook
+youtube_username:       # No YouTube
 blog_url: https://owoicho09.github.io/seo-blog/
 
-# If your repo name follows the format "<username>.github.io", leave this blank
+# Leave blank if repo name is owoicho09.github.io
 baseurl: 
 
 exclude:

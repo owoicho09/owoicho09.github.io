@@ -1,16 +1,15 @@
 subject: Education
-listing-order: 1
+listing-order: 5
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: Federal University of Technology, Minna – BSc in Applied Geophysics
+  - title: "Federal University of Technology, Minna – BSc in Applied Geophysics"
     description:
       - Studied geophysical survey methods including radiometrics, resistivity, and seismic interpretation
       - Gained foundational knowledge in earth science, field mapping, and data analysis
-    date: 2019 – 2025
+    date: "2019 – 2025"
 
-  - title: Saint Simon and Jude Minor Seminary, Kuje Abuja – High School Certificate
+  - title: "Saint Simon and Jude Minor Seminary, Kuje Abuja – High School Certificate"
     description:
       - Developed foundational discipline and critical thinking. Actively involved in leadership and academic activities.
       - Held leadership roles and participated in academic competitions
-   
-    date: 2013 – 2019
+    date: "2013 – 2019"

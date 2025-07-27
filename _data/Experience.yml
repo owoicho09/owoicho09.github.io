@@ -1,5 +1,5 @@
 subject: Experiences
-listing-order: 2
+listing-order: 1
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: Genesis.ai
@@ -11,7 +11,22 @@ contents:
       - Created an SEO blog generation engine that auto-publishes to GitHub Pages
       - Integrated LangGraph and OpenAI APIs for adaptive logic and decision-making
       - Launched Meta Ads automation with GPT-powered optimization to maximize profits
-    date: June. 2025 – Present
+    date: "June 2025 – Present"
+
+  - title: Office.ai — Unified AI Assistant for Smart Workspace Automation
+    role: Founder & Lead Developer
+    description:
+      - Built Office.ai, a next-gen GPT-4-powered agent that automates workspace tasks using natural language
+      - Connected Gmail, Google Drive, WhatsApp, PostgreSQL/Django, and spreadsheets into one semantic interface
+      - Developed semantic search (RAG) over emails, documents, and databases using LangChain and ChromaDB
+      - Automated intelligent email triage: summarization, categorization, context-aware replies and follow-ups
+      - Embedded and vectorized PDFs, DOCX, and transcribed voice notes for context-aware document Q&A
+      - Generated spreadsheets from internal DBs (products, metrics, analytics) and auto-delivered via email/WhatsApp
+      - Built Whisper integration for real-time voice transcription and summarization
+      - Used LangChain agents for tool selection, dynamic decision-making, and autonomous task execution
+      - Enabled scheduling, calendar sync, and smart replies through Google Calendar API and NLP
+      - Example: “Summarize team emails this week” or “Send sales report to finance via WhatsApp”
+    date: "Apr 2025 – Present"
 
   - title: Unitoria (Online University Tutorial Platform)
     role: Founder & Product Lead
@@ -20,7 +35,7 @@ contents:
       - Designed backend with Django and PostgreSQL, supporting video lessons, live classes, and dashboards
       - Managed a team of contributors through the product lifecycle — from MVP to release
       - Focused on scalable architecture and real-time content delivery
-    date: Nov. 2024 – Present
+    date: "Nov 2024 – Present"
 
   - title: Mountain View Province (Student Housing)
     role: Lead Software Engineer (Contract)
@@ -29,4 +44,4 @@ contents:
       - Served Baze and Nile University students with a modern UI and robust backend
       - Integrated features like availability filters, calendar sync, and payment gateways
       - Oversaw project delivery timeline, UI/UX, and system integration
-    date: Aug. 2024 – Dec. 2024
+    date: "Aug 2024 – Dec 2024"

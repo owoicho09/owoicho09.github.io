@@ -1,14 +1,14 @@
 subject: Skills
-listing-order: 5
+listing-order: 3
 icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: Programming Languages
-    description: "
+    description: >
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg)
-    "
+
   - title: Frameworks
-    description: "
+    description: >
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg)
@@ -17,10 +17,9 @@ contents:
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gatsby/gatsby-original.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg)
-    "
 
-    - title: LLM Engineering & AI Automation
-    description: "
+  - title: LLM Engineering & AI Automation
+    description: >
       🔹 OpenAI GPT APIs, Assistants, and Fine-Tuning<br>
       🔹 LangGraph & LangChain (RAG, memory, tools, routing)<br>
       🔹 Retrieval-Augmented Generation (RAG) Pipelines<br>
@@ -28,22 +27,19 @@ contents:
       🔹 Smart AI Assistants & Autonomous Agents<br>
       🔹 Fine-tuning LLMs on custom datasets<br>
       🔹 Agent workflows, evaluation & deployment
-    "
 
   - title: Automation & Scraping
-    description: "
+    description: >
       🔹 Web scraping with Playwright, BeautifulSoup, Requests<br>
       🔹 Cold email automation with SMTP rotation & GPT personalization<br>
       🔹 Lead generation from Google Maps, Instagram, and Bing<br>
       🔹 SEO blog automation using GitHub Actions, Markdown & Jekyll<br>
       🔹 GitHub Pages + SEO-optimized content deployment<br>
       🔹 Git, GitHub Actions, CI/CD
-    "
 
   - title: Soft Skills & Leadership
-    description: "
+    description: >
       🔹 Technical leadership & remote team management<br>
       🔹 Product strategy & execution<br>
       🔹 Clear documentation & async collaboration<br>
       🔹 Strong initiative & creative problem-solving
-    "
