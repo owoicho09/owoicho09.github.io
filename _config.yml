@@ -1,24 +1,24 @@
-title: Title of your CV site
-profile_img: /assets/img/profile.webp
-icon_img: /assets/img/icon.webp
+title: Michael Owoicho Ogaje — Resume
+profile_img: /assets/img/profile.webp  # Make sure this image exists
+icon_img: /assets/img/icon.webp        # Favicon/icon image
 
-name: "Your Name Here"
-job: "〈Your Job Here〉"
+name: "Michael Owoicho Ogaje"
+job: "Python Developer • AI Automation Engineer"
 
-phone_number: 012-345-6789
-address: City, Country
-email: email@example.com
-linkedin_username: linkedin
-github_username: github
-instagram_username: instagram
-twitter_username: twitter
-facebook_username: facebook
-youtube_username: youtube
-blog_url: homepage-url
+phone_number: 08142878380
+address: Abuja, Nigeria
+email: michaelogaje033@gmail.com
 
-# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
-# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
-baseurl:
+linkedin_username: michael-ogaje-3a8323377
+github_username: owoicho09
+twitter_username:  # No Twitter
+instagram_username: kacheofficiall
+facebook_username:  # No Facebook
+youtube_username:   # No YouTube
+blog_url: https://owoicho09.github.io/seo-blog/
+
+# If your repo name follows the format "<username>.github.io", leave this blank
+baseurl: 
 
 exclude:
   - _posts/
