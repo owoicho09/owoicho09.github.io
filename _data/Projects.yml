@@ -2,20 +2,27 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Genesis.ai"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
+      - Full-stack AI automation engine for digital product marketing and outreach
+      - Integrates lead scraping (Google Maps, Instagram, Bing), cold outreach, and SEO blog generation
+      - Uses GPT, LangGraph, RAG, SMTP rotation, and GitHub Pages deployment
+      - "Technology Used: Python, Django, OpenAI, LangGraph, Playwright, RAG Pipelines, LangChain"
+    image: "![](https://i.ibb.co/nrFGsFM/genesis-ai-preview.webp)" # replace with your actual preview image if available
+    link: https://github.com/owoicho09/genesis # replace with your actual GitHub link
+
+  - title: "Unitoria"
     description: 
-      - Universal Command Line Interface for Amazone Web Services
-      - Developed a scheme to facilitate users’ authentication without having to remember their credentials
-      - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
-  - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
+      - Online university tutorial platform adopted by FUT Minna students
+      - Features live class scheduling, lecture uploads, user dashboards, and real-time chat
+      - "Technology Used: Django, PostgreSQL, JavaScript, Paystack APIs, Flutterwave APIs, Stripe APIs"
+    image: "![](https://i.ibb.co/fG2zmrh/unitoria-preview.webp)" # replace with your actual preview image
+    link: https://github.com/owoicho09/tutormeapi # replace with your actual GitHub link
+
+  - title: "MVP Booking System"
     description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+      - End-to-end student accommodation platform for Baze and Nile University students
+      - Handles property listings, calendar-based booking, and integrated payments
+      - "Technology Used: Django, HTML5, Stripe, PostgreSQL, Paystack APIs, Flutterwave APIs, Stripe APIs"
+    image: "![](https://i.ibb.co/GcT6G1S/mvp-preview.webp)" # use a fitting preview image or leave blank
+    link: https://github.com/owoicho09/mountainviewprovince # replace with real link
