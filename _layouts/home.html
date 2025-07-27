@@ -58,12 +58,7 @@
             <div><span>@{{ site.twitter_username }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.instagram_username %}
-          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
-            <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
-            <div><span>@{{ site.instagram_username }}</span></div>
-          </a></li>
-        {% endif %}
+
         {% if site.facebook_username %}
           <li><a aria-label="My Facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
             <img src="{{ '/assets/img/facebook.svg' | prepend: site.baseurl }}" alt="My Facebook">
@@ -80,6 +75,12 @@
           <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
             <img src="{{ '/assets/img/linkedin.svg' | prepend: site.baseurl }}" alt="My LinkedIn">
             <div><span>@{{ site.linkedin_username }}</span></div>
+          </a></li>
+        {% endif %}
+        {% if site.instagram_username %}
+          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
+            <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
+            <div><span>@{{ site.instagram_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.blog_url %}
