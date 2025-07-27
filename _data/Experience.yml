@@ -2,21 +2,31 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: Genesis.ai
+    role: Founder & Lead Developer
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
-    description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Built a full-stack AI automation engine for scaling digital product sales and outreach
+      - Engineered lead scraping from Google Maps, Instagram, and Bing using Python and Playwright
+      - Designed GPT-personalized cold email system with rotating SMTP inboxes for outreach automation
+      - Created an SEO blog generation engine that auto-publishes to GitHub Pages
+      - Integrated LangGraph and OpenAI APIs for adaptive logic and decision-making
+      - Launched Meta Ads automation with GPT-powered optimization to maximize profits
+    date: June. 2025 – Present
+
+  - title: Unitoria (Online University Tutorial Platform)
+    role: Founder & Product Lead
+    description:
+      - Built and launched an academic platform used by students at FUT Minna
+      - Designed backend with Django and PostgreSQL, supporting video lessons, live classes, and dashboards
+      - Managed a team of contributors through the product lifecycle — from MVP to release
+      - Focused on scalable architecture and real-time content delivery
+    date: Nov. 2024 – Present
+
+  - title: Mountain View Province (Student Housing)
+    role: Lead Software Engineer (Contract)
+    description:
+      - Built a booking and payment system for student accommodations
+      - Served Baze and Nile University students with a modern UI and robust backend
+      - Integrated features like availability filters, calendar sync, and payment gateways
+      - Oversaw project delivery timeline, UI/UX, and system integration
+    date: Aug. 2024 – Dec. 2024
