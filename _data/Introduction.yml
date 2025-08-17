@@ -1,0 +1,8 @@
+subject: Introduction
+listing-order: 1
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: Professional Summary
+    role: Python Developer & AI Automation Engineer
+    description: >
+      I’m a Python developer and AI automation engineer with hands-on experience building intelligent systems that scale digital operations. I’ve led the development of AI-powered platforms like Genesis.ai, which automates customer discovery, cold outreach, SEO blog publishing, and Meta ads launching & optimization using GPT, LangGraph, and Playwright. I also built Office.ai, a smart assistant that automates business workflows via natural language, integrating tools like Gmail, WhatsApp, and Google Drive. From building academic platforms like Unitoria to end-to-end SaaS products, my projects blend automation, LLMs, web development and real-world utility — driven by a focus on scalability, performance, and user-centric design.
